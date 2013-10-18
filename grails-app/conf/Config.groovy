@@ -62,6 +62,15 @@ grails.hibernate.cache.queries = false
 environments {
     development {
         grails.logging.jul.usebridge = true
+
+
+        grails.serverURL = "http://localhost:8080/requestAwareLinkGenerator"
+//        grails.app.context = "/mycontext"
+
+//        requestAwareLinkGenerator.useCachingLinkGenerator = false
+//        requestAwareLinkGenerator.enable = false
+
+
     }
     production {
         grails.logging.jul.usebridge = false
